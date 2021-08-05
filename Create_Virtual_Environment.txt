@@ -1,0 +1,22 @@
+In Ubuntu (From Fuad)
+____________________________________________________________________
+python3 -m pip install --upgrade pip
+python3 -m pip install virtualenv
+python3 -m virtualenv venv
+source venv/bin/activate
+
+
+Used in Windows (Following The Tutorial: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
+____________________________________________________________________
+python -m pip install --upgrade pip
+python -m pip --version
+python -m venv env
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\env\Scripts\activate
+
+Installing Basic Things
+____________________________________________________________________
+pip install opencv-python
+pip install django djangorestframework django-cors-headers
+pip install matplotlib numpy pandas scipy munkres tqdm jwt ffmpeg botocore boto3 imutils  // cv2
+pip install requests
