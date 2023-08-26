@@ -1,0 +1,11 @@
+! /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+! (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/al.siam/.zprofile
+! eval "$(/opt/homebrew/bin/brew shellenv)"
+! brew install gcc
+! cd /opt/homebrew/bin
+! ln -s gcc-13 gcc
+! ln -s g++-13 g++
+! where gcc
+// restart terminal
+! gcc --version
+! g++ main.cpp -o out.app
